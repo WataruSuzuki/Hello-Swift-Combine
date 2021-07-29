@@ -15,6 +15,8 @@
 		7563659426CA01FD0091D60E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563656926CA01FC0091D60E /* ContentView.swift */; };
 		7563659526CA01FD0091D60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7563656A26CA01FD0091D60E /* Assets.xcassets */; };
 		7563659626CA01FD0091D60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7563656A26CA01FD0091D60E /* Assets.xcassets */; };
+		756365A626CA03830091D60E /* ExampleSomeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756365A526CA03830091D60E /* ExampleSomeObject.swift */; };
+		756365A726CA03830091D60E /* ExampleSomeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756365A526CA03830091D60E /* ExampleSomeObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		7563658A26CA01FD0091D60E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7563658E26CA01FD0091D60E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		7563659026CA01FD0091D60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756365A526CA03830091D60E /* ExampleSomeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSomeObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 				7563656826CA01FC0091D60E /* HelloCombineApp.swift */,
 				7563656926CA01FC0091D60E /* ContentView.swift */,
 				7563656A26CA01FD0091D60E /* Assets.xcassets */,
+				756365A526CA03830091D60E /* ExampleSomeObject.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -309,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7563659326CA01FD0091D60E /* ContentView.swift in Sources */,
+				756365A626CA03830091D60E /* ExampleSomeObject.swift in Sources */,
 				7563659126CA01FD0091D60E /* HelloCombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7563659426CA01FD0091D60E /* ContentView.swift in Sources */,
+				756365A726CA03830091D60E /* ExampleSomeObject.swift in Sources */,
 				7563659226CA01FD0091D60E /* HelloCombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
